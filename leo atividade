@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leo</title> 
+    <link rel="stylesheet" href="at1style.css">
+</head>
+<body>
+    <script>
+        var nome1 = prompt("Informe um nome:")
+        var sobrenome1 = prompt("Informe o sobre nome correspondente:")
+        var idade1 = parseInt (prompt("Qual a sua idade?"))
+
+
+        var nome2 = prompt("Informe um nome:")
+        var sobrenome2 = prompt("Informe o sobre nome correspondente:")
+        var idade2 = parseInt (prompt("Qual a sua idade?"))
+
+
+
+
+        var nome3 = prompt("Informe um nome:")
+        var sobrenome3 =  prompt("Informe o sobre nome correspondente:")
+        var idade3 = parseInt (prompt("Qual a sua idade?"))
+        
+        document.write(nome1 + " " + sobrenome1 + " " + idade1 + '<br>')
+        document.write(nome2 + " " + sobrenome2 + " " + idade2 + '<br>')
+        document.write(nome3 +" " + sobrenome3 + " " + idade3+ '<br>')
+
+
+
+
+
+        var média =(idade1 + idade2 + idade3)/3
+        alert("A média das idades é igual a " + média)
+
+    </script>
+    
+</body>
+</html>
